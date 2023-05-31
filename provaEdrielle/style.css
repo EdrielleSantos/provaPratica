@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    border: 2px solid #000;
+
+    max-height: 100vh;
+}
+
+.logo h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    padding-bottom: 0;
+    font-weight: 300;
+    font-size: 26px;
+}
+
+.logo h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.7rem;
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 1.2rem;
+    border: 1px solid #000;
+    margin-left: 45rem;
+    margin-right: 45rem;
+    margin-top: .8rem;
+}
+
+main{
+    margin-top: 3rem;
+    padding-top: 1rem;
+    background-color: #d1d1d1
+}
+
+main .linha1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 1rem;
+}
+
+main .linha2{
+    display: flex;
+    margin-top: -99.5rem;
+
+    gap: 1rem;
+
+}
+
+.img1{
+    width: 80rem;
+}
+.img2{
+    width: 37.7rem;
+}
+
+.img3, .img4{
+    width: 37.7rem;
+    height: 30.2rem;
+
+    margin-bottom: 2rem;
+}
+
+footer{
+    padding: 4rem;
+}
+
+footer p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+}
+
+footer .icons{
+    padding-top: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 2rem;
+}
+
+.modal{
+    background-color: white;
+    background: fixed;
+    border-radius: 20px;
+    font-size: 30px;
+
+    display: none;
+}
+
+.form input{
+    border-radius: 10px;
+    width: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+}
